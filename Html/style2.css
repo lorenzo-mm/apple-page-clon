@@ -1,0 +1,366 @@
+/* GENERAL */
+* {
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* CUERPO */
+body {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    background-color: #fff;
+    color: #1d1d1f;
+    background-color: #424245;
+    font-style: normal;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial","sans-serif";
+}
+
+html .nav-global {
+    height: 0;
+}
+
+/* ENCABEZADO */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    cursor: default;
+    gap: 1rem;    
+}
+
+.header a:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+/* BARRA NAV */
+.header .nav-global {
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    height: 44px;
+    width: 100%;
+    direction: ltr;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: space-between;
+    letter-spacing: normal;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+ul {
+    width: 996px;
+    text-align: center;
+    box-sizing: content-box;
+    padding: 0;
+    float: initial;
+    pointer-events: auto;
+    letter-spacing: normal;
+    position: fixed;
+    list-style-type: none;
+    display: flex;
+}
+
+ul li {
+    padding: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #f5f5f7;
+    font-size: 12px;
+}
+
+/* FIN BARRA NAV */
+
+/* LINKS BLOQUE 1 */
+main section .links {
+    margin-top: 0.65em;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: .011em;
+    /* padding-top: 47px; */
+}
+
+/* iPHONE 13 PRO */
+main section .iphone-13-pro {
+    width: 100%;
+    height: 550px;
+    background: url(../img/hero_iphone_13pro__dhnsegysa42u_largetall.jpg) no-repeat center center/cover;
+    padding: 50px;
+    margin-bottom: 10px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+main section .texto-iphone-13-pro {
+    margin: auto;
+    text-align: center;
+    z-index: 4;
+}
+
+
+/* iPHONE 13 */
+main section .iphone-13 {
+    width: 100%;
+    height: 550px;
+    background: url(../img/hero_iphone_13__f194u1rdooeq_largetall.jpg) no-repeat center center/cover;
+    padding: 50px;
+    margin-bottom: 10px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+main section .texto-iphone-13 {
+    margin: auto;
+    text-align: center;
+    color:#f5f5f7;
+}
+/* -PRIMER BLOQUE- */
+
+
+/* SEGUNDO BLOQUE */
+.segunda-seccion {
+    margin: 0.5em 3em;
+    height: 580px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px 80px auto;
+    gap: 0.5rem;
+}
+
+/* HERO WATCH*/
+main section .black-unity {
+    width: 100%;
+    height: 550px;
+    background: url(../img/hero_watch__f05go333pz2i_largetall.jpg) no-repeat center center/cover;
+    padding: 50px;
+    margin-bottom: 10px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+    grid-area: 1 / 1 / span 3;
+    justify-self: start;
+}
+
+main section .texto-black-unity {
+    margin: auto;
+    text-align: center;
+    z-index: 4;
+    color: #fff;
+}
+/* -HERO WATCH- */
+
+main section .texto-watch-s7 {
+    margin: auto;
+    text-align: center;
+    z-index: 4;
+}
+
+/* WATCH S7 */
+main section .texto-extra {
+    color: red;
+}
+
+/* main section .watch-s7 {
+    float: left;
+} */
+
+main section .watch-s7 {
+    width: 100%;
+    height: 550px;
+    background: url(../img/tile_watch__e9n11b6m6yq2_large.jpg) no-repeat center center/cover;
+    padding: 50px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+/* -WATCH S7- */
+
+
+/* HOMEPOD MINI */
+main section .reto-shot {
+    width: 100%;
+    height: 550px;
+    background: url(../img/tile_soip__f0c6lef982em_large.jpg) no-repeat center center/cover;
+    padding: 50px;
+    float: left;
+    margin-bottom: 10px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+main section .texto-reto-shot {
+    margin: auto;
+    text-align: center;
+    z-index: 4;
+}
+/* -HOMEPOD MINI- */
+
+
+/* AIRPODS */
+main section .airpods {
+    width: 100%;
+    height: 550px;
+    background: url(../img/promo_vday22__oz9b5x4x7ney_large.jpg) no-repeat center center/cover;
+    padding: 50px;
+    float: left;
+    margin-bottom: 10px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+main section .texto-airpods {
+    margin: auto;
+    text-align: center;
+    z-index: 4;
+}
+/* -AIRPODS- */
+
+/* FITNESS */
+main section .fitness {
+    width: 100%;
+    height: 550px;
+    background: url(../img/tile_winter__bpktzwl6hsc2_large.jpg) no-repeat center center/cover;
+    padding: 50px;
+    float: left;
+    margin-bottom: 10px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+main section .texto-airpods {
+    margin: auto;
+    text-align: center;
+    z-index: 4;
+}
+/* -FITNESS- */
+
+
+/* iPAD MINI */
+main section .ipad-mini {
+    width: 100%;
+    height: 550px;
+    background: url(../img/tile_arcade__ewkth5cd0wia_large.jpg) no-repeat center center/cover;
+    padding: 50px;
+    float: left;
+    margin-bottom: 10px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+main section .texto-ipad-mini {
+    margin: auto;
+    text-align: center;
+    z-index: 4;
+}
+/* -iPAD MINI- */
+
+
+/* ANUNCIO APPLE TV */
+main section .tv-plus {
+    width: 100%;
+    height: 550px;
+    background: url(../img/promo_servant_s3__fr47v11rxd6q_large.jpg) no-repeat center center/cover;
+    padding: 50px;
+    float: left;
+    margin-bottom: 10px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+main section .texto-tv-plus{
+    margin: auto;
+    text-align: center;
+    z-index: 4;
+}
+/* TV PLUS */
+/* FIN SEGUNDO BLOQUE */
+
+
+/* PIE DE PAGINA */
+.footer {
+    --footer-background: #f5f5f7;
+        --footer-border-color: #d2d2d7;
+        --footer-text-color: #6e6e73;
+        --footer-link-color: #424245;
+        --footer-directory-title-color: #1d1d1f;
+        --footer-directory-title-color-hover: rgb(0, 0, 0);
+        display: block;
+        font-size: 12px;
+        line-height: 1.33337;
+        font-weight: 400;
+        letter-spacing: -.01em;
+        background: var(--footer-background);
+        color: var(--footer-text-color);
+        min-width: 1024px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        text-align: grid;
+    }
+
+    nav .ac-gf-directory-with-5-columns {
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 20px;
+    }
+
+    div .links a::after {
+        content: ">";
+        color: #06c;
+    }
+
+    /* NOTAS */
+    
+
